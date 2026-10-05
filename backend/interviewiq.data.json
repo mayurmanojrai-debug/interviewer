@@ -177,6 +177,23 @@
    "durationSeconds": 0,
    "status": "IN_PROGRESS",
    "createdAt": "2026-10-05T07:52:53.338Z"
+  },
+  {
+   "id": 9,
+   "userId": 1,
+   "jobRole": "Full Stack Developer",
+   "experienceLevel": "Beginner",
+   "difficulty": "Easy",
+   "interviewType": "Technical",
+   "totalQuestions": 5,
+   "overallScore": 0,
+   "technicalScore": 0,
+   "communicationScore": 0,
+   "problemSolvingScore": 0,
+   "confidenceScore": 0,
+   "durationSeconds": 0,
+   "status": "IN_PROGRESS",
+   "createdAt": "2026-10-05T08:14:24.667Z"
   }
  ],
  "answers": [
@@ -646,7 +663,7 @@
  ],
  "seq": {
   "user": 5,
-  "interview": 9,
+  "interview": 10,
   "answer": 9,
   "question": 1,
   "roadmap": 6,
