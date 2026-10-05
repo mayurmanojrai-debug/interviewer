@@ -194,6 +194,23 @@
    "durationSeconds": 0,
    "status": "IN_PROGRESS",
    "createdAt": "2026-10-05T08:14:24.667Z"
+  },
+  {
+   "id": 10,
+   "userId": 1,
+   "jobRole": "Full Stack Developer",
+   "experienceLevel": "Beginner",
+   "difficulty": "Medium",
+   "interviewType": "Technical",
+   "totalQuestions": 5,
+   "overallScore": 0,
+   "technicalScore": 0,
+   "communicationScore": 0,
+   "problemSolvingScore": 0,
+   "confidenceScore": 0,
+   "durationSeconds": 0,
+   "status": "IN_PROGRESS",
+   "createdAt": "2026-10-05T09:13:22.803Z"
   }
  ],
  "answers": [
@@ -332,6 +349,23 @@
    "weaknesses": "Missing concepts: join, inner, left | Add a real-world example | Answer too brief — use 3-4 sentences",
    "difficultyAtTime": "Medium",
    "createdAt": "2026-10-05T07:53:07.150Z"
+  },
+  {
+   "id": 9,
+   "interviewId": 10,
+   "questionId": 14,
+   "questionText": "Describe a challenging project (STAR).",
+   "answerText": "Some Something Something like Something like hello Something like hello Something like hello Something like hello I Something like hello I Something like hello I will Something like hello I will let Something like hello I will let mean Something like hello I will let mean Something like hello I will let means Something like hello I will let means Something like hello I will let means answer Something like hello I will let means answer Something like hello I will let means answer I Something like hello I will let means answer I Something like hello I will let means answer I just Something like hello I will let means answer I just Something like hello I will let means answer I just Something like hello I will let means answer I just anything Something like hello I will let means answer I just anything Something like hello I will let means answer I just anything Something like hello I will let means answer I just anything I Something like hello I will let means answer I just anything I did Something like hello I will let means answer I just anything I did Something like hello I will let means answer I just anything I did Something like hello I will let means answer I just anything I did Something like hello I will let means answer I just anything I did so Something like hello I will write means answer I just anything I did so like",
+   "score": 44.4,
+   "technicalScore": 40,
+   "relevanceScore": 48,
+   "completenessScore": 59.5,
+   "clarityScore": 30,
+   "feedback": "Partial understanding. Cover missing concepts step-by-step with an example.",
+   "strengths": "Detailed, well-structured explanation",
+   "weaknesses": "Missing concepts: situation, task, action | Add a real-world example | Reduce filler words",
+   "difficultyAtTime": "Medium",
+   "createdAt": "2026-10-05T09:13:48.790Z"
   }
  ],
  "questions": [
@@ -663,8 +697,8 @@
  ],
  "seq": {
   "user": 5,
-  "interview": 10,
-  "answer": 9,
+  "interview": 11,
+  "answer": 10,
   "question": 1,
   "roadmap": 6,
   "resume": 2,
