@@ -1,0 +1,657 @@
+{
+ "users": [
+  {
+   "id": 1,
+   "name": "Demo Candidate",
+   "email": "demo@interviewiq.com",
+   "password": "sha256$dce6ca8e829615347ee5f448f29a2a133ac52c5294acc6f375c580b9806c441b",
+   "role": "STUDENT",
+   "targetRole": "Full Stack Developer",
+   "experienceLevel": "Intermediate",
+   "createdAt": "2026-10-05T04:57:44.617Z"
+  },
+  {
+   "id": 2,
+   "name": "Admin",
+   "email": "admin@interviewiq.com",
+   "password": "sha256$30c259292df7be7929b86a7861d0b4df947a782771ef0a5582ecf578a449edfc",
+   "role": "ADMIN",
+   "targetRole": "Full Stack Developer",
+   "experienceLevel": "Expert",
+   "createdAt": "2026-10-05T04:57:44.618Z"
+  },
+  {
+   "id": 3,
+   "name": "mayur rai",
+   "email": "raimayur71@gmail.com",
+   "password": "sha256$6914b82f32446e82fc9b594982d5959e33102b0e705a38c42891425e6a4c6915",
+   "role": "STUDENT",
+   "targetRole": "Full Stack Developer",
+   "experienceLevel": "Beginner",
+   "createdAt": "2026-10-05T05:48:37.752Z"
+  },
+  {
+   "id": 4,
+   "name": "Test User",
+   "email": "test1918@example.com",
+   "password": "sha256$8a368656ce08b928af8f4cbcc452079fc0795a8723f4d9e9cc9ef35df35a27e0",
+   "role": "STUDENT",
+   "targetRole": "Full Stack Developer",
+   "experienceLevel": "Intermediate",
+   "createdAt": "2026-10-05T07:42:03.278Z"
+  }
+ ],
+ "interviews": [
+  {
+   "id": 1,
+   "userId": 1,
+   "jobRole": "Full Stack Developer",
+   "experienceLevel": "Intermediate",
+   "difficulty": "Adaptive AI",
+   "interviewType": "Mixed",
+   "totalQuestions": 5,
+   "overallScore": 72,
+   "technicalScore": 74,
+   "communicationScore": 70,
+   "problemSolvingScore": 71,
+   "confidenceScore": 75,
+   "durationSeconds": 600,
+   "status": "COMPLETED",
+   "createdAt": "2026-09-30T04:57:44.619Z"
+  },
+  {
+   "id": 2,
+   "userId": 1,
+   "jobRole": "Java Developer",
+   "experienceLevel": "Intermediate",
+   "difficulty": "Adaptive AI",
+   "interviewType": "Mixed",
+   "totalQuestions": 5,
+   "overallScore": 78,
+   "technicalScore": 80,
+   "communicationScore": 76,
+   "problemSolvingScore": 77,
+   "confidenceScore": 81,
+   "durationSeconds": 640,
+   "status": "COMPLETED",
+   "createdAt": "2026-10-01T04:57:44.619Z"
+  },
+  {
+   "id": 3,
+   "userId": 1,
+   "jobRole": "Full Stack Developer",
+   "experienceLevel": "Intermediate",
+   "difficulty": "Adaptive AI",
+   "interviewType": "Mixed",
+   "totalQuestions": 5,
+   "overallScore": 84,
+   "technicalScore": 86,
+   "communicationScore": 82,
+   "problemSolvingScore": 83,
+   "confidenceScore": 87,
+   "durationSeconds": 680,
+   "status": "COMPLETED",
+   "createdAt": "2026-10-02T04:57:44.619Z"
+  },
+  {
+   "id": 4,
+   "userId": 1,
+   "jobRole": "Java Developer",
+   "experienceLevel": "Intermediate",
+   "difficulty": "Adaptive AI",
+   "interviewType": "Mixed",
+   "totalQuestions": 5,
+   "overallScore": 69,
+   "technicalScore": 71,
+   "communicationScore": 67,
+   "problemSolvingScore": 68,
+   "confidenceScore": 72,
+   "durationSeconds": 720,
+   "status": "COMPLETED",
+   "createdAt": "2026-10-03T04:57:44.619Z"
+  },
+  {
+   "id": 5,
+   "userId": 1,
+   "jobRole": "Full Stack Developer",
+   "experienceLevel": "Intermediate",
+   "difficulty": "Adaptive AI",
+   "interviewType": "Mixed",
+   "totalQuestions": 5,
+   "overallScore": 88,
+   "technicalScore": 90,
+   "communicationScore": 86,
+   "problemSolvingScore": 87,
+   "confidenceScore": 91,
+   "durationSeconds": 760,
+   "status": "COMPLETED",
+   "createdAt": "2026-10-04T04:57:44.619Z"
+  },
+  {
+   "id": 6,
+   "userId": 1,
+   "jobRole": "Full Stack Developer",
+   "experienceLevel": "Beginner",
+   "difficulty": "Easy",
+   "interviewType": "Mixed",
+   "totalQuestions": 5,
+   "overallScore": 0,
+   "technicalScore": 0,
+   "communicationScore": 0,
+   "problemSolvingScore": 0,
+   "confidenceScore": 0,
+   "durationSeconds": 0,
+   "status": "IN_PROGRESS",
+   "createdAt": "2026-10-05T06:03:36.458Z"
+  },
+  {
+   "id": 7,
+   "userId": 1,
+   "jobRole": "Cybersecurity Analyst",
+   "experienceLevel": "Beginner",
+   "difficulty": "Easy",
+   "interviewType": "Technical",
+   "totalQuestions": 5,
+   "overallScore": 41.3,
+   "technicalScore": 35,
+   "communicationScore": 87,
+   "problemSolvingScore": 40.1,
+   "confidenceScore": 44.3,
+   "durationSeconds": 0,
+   "status": "COMPLETED",
+   "createdAt": "2026-10-05T06:21:14.715Z"
+  },
+  {
+   "id": 8,
+   "userId": 1,
+   "jobRole": "Full Stack Developer",
+   "experienceLevel": "Beginner",
+   "difficulty": "Easy",
+   "interviewType": "Technical",
+   "totalQuestions": 5,
+   "overallScore": 0,
+   "technicalScore": 0,
+   "communicationScore": 0,
+   "problemSolvingScore": 0,
+   "confidenceScore": 0,
+   "durationSeconds": 0,
+   "status": "IN_PROGRESS",
+   "createdAt": "2026-10-05T07:52:53.338Z"
+  }
+ ],
+ "answers": [
+  {
+   "id": 1,
+   "interviewId": 1,
+   "questionId": 1,
+   "questionText": "Explain difference between HashMap and ConcurrentHashMap in Java.",
+   "answerText": "Sample evaluated answer with concepts and example.",
+   "score": 72,
+   "technicalScore": 73,
+   "relevanceScore": 72,
+   "completenessScore": 70,
+   "clarityScore": 74,
+   "feedback": "Good answer. Add a real-world example.",
+   "strengths": "Good coverage",
+   "weaknesses": "Add example",
+   "difficultyAtTime": "Medium",
+   "createdAt": "2026-09-30T04:57:44.619Z"
+  },
+  {
+   "id": 2,
+   "interviewId": 2,
+   "questionId": 2,
+   "questionText": "What is dependency injection in Spring?",
+   "answerText": "Sample evaluated answer with concepts and example.",
+   "score": 78,
+   "technicalScore": 79,
+   "relevanceScore": 78,
+   "completenessScore": 76,
+   "clarityScore": 80,
+   "feedback": "Good answer. Add a real-world example.",
+   "strengths": "Good coverage",
+   "weaknesses": "Add example",
+   "difficultyAtTime": "Medium",
+   "createdAt": "2026-10-01T04:57:44.619Z"
+  },
+  {
+   "id": 3,
+   "interviewId": 3,
+   "questionId": 3,
+   "questionText": "Explain @RestController vs @Controller.",
+   "answerText": "Sample evaluated answer with concepts and example.",
+   "score": 84,
+   "technicalScore": 85,
+   "relevanceScore": 84,
+   "completenessScore": 82,
+   "clarityScore": 86,
+   "feedback": "Good answer. Add a real-world example.",
+   "strengths": "Good coverage",
+   "weaknesses": "Add example",
+   "difficultyAtTime": "Medium",
+   "createdAt": "2026-10-02T04:57:44.619Z"
+  },
+  {
+   "id": 4,
+   "interviewId": 4,
+   "questionId": 4,
+   "questionText": "What are SOLID principles?",
+   "answerText": "Sample evaluated answer with concepts and example.",
+   "score": 69,
+   "technicalScore": 70,
+   "relevanceScore": 69,
+   "completenessScore": 67,
+   "clarityScore": 71,
+   "feedback": "Good answer. Add a real-world example.",
+   "strengths": "Good coverage",
+   "weaknesses": "Add example",
+   "difficultyAtTime": "Medium",
+   "createdAt": "2026-10-03T04:57:44.619Z"
+  },
+  {
+   "id": 5,
+   "interviewId": 5,
+   "questionId": 5,
+   "questionText": "Explain SQL JOIN types.",
+   "answerText": "Sample evaluated answer with concepts and example.",
+   "score": 88,
+   "technicalScore": 89,
+   "relevanceScore": 88,
+   "completenessScore": 86,
+   "clarityScore": 90,
+   "feedback": "Good answer. Add a real-world example.",
+   "strengths": "Good coverage",
+   "weaknesses": "Add example",
+   "difficultyAtTime": "Medium",
+   "createdAt": "2026-10-04T04:57:44.619Z"
+  },
+  {
+   "id": 6,
+   "interviewId": 6,
+   "questionId": 15,
+   "questionText": "Why should we hire you?",
+   "answerText": "(skipped)",
+   "score": 41.3,
+   "technicalScore": 35,
+   "relevanceScore": 40,
+   "completenessScore": 21,
+   "clarityScore": 87,
+   "feedback": "Too short. Explain in 3-4 sentences with an example and trade-offs.",
+   "strengths": "Attempted the core concept",
+   "weaknesses": "Missing concepts: strengths, role, contribution | Add a real-world example | Answer too brief — use 3-4 sentences",
+   "difficultyAtTime": "Easy",
+   "createdAt": "2026-10-05T06:03:50.582Z"
+  },
+  {
+   "id": 7,
+   "interviewId": 7,
+   "questionId": 11,
+   "questionText": "Explain CIA triad.",
+   "answerText": "Hul Hola Hula Ooh la la",
+   "score": 41.3,
+   "technicalScore": 35,
+   "relevanceScore": 40,
+   "completenessScore": 21,
+   "clarityScore": 87,
+   "feedback": "Too short. Explain in 3-4 sentences with an example and trade-offs.",
+   "strengths": "Attempted the core concept",
+   "weaknesses": "Missing concepts: confidentiality, integrity, availability | Add a real-world example | Answer too brief — use 3-4 sentences",
+   "difficultyAtTime": "Medium",
+   "createdAt": "2026-10-05T06:21:34.996Z"
+  },
+  {
+   "id": 8,
+   "interviewId": 8,
+   "questionId": 5,
+   "questionText": "Explain SQL JOIN types.",
+   "answerText": "qwrdjgyawdg",
+   "score": 41.3,
+   "technicalScore": 35,
+   "relevanceScore": 40,
+   "completenessScore": 21,
+   "clarityScore": 87,
+   "feedback": "Too short. Explain in 3-4 sentences with an example and trade-offs.",
+   "strengths": "Attempted the core concept",
+   "weaknesses": "Missing concepts: join, inner, left | Add a real-world example | Answer too brief — use 3-4 sentences",
+   "difficultyAtTime": "Medium",
+   "createdAt": "2026-10-05T07:53:07.150Z"
+  }
+ ],
+ "questions": [
+  {
+   "id": 1,
+   "questionText": "Explain difference between HashMap and ConcurrentHashMap in Java.",
+   "category": "Java",
+   "jobRole": "Java Developer",
+   "difficulty": "Medium",
+   "expectedKeywords": "hashmap,concurrenthashmap,thread-safe,synchronization,concurrency",
+   "idealAnswer": "HashMap is non-synchronized; ConcurrentHashMap is thread-safe.",
+   "active": true
+  },
+  {
+   "id": 2,
+   "questionText": "What is dependency injection in Spring?",
+   "category": "Spring Boot",
+   "jobRole": "Java Developer",
+   "difficulty": "Medium",
+   "expectedKeywords": "dependency,injection,ioc,container,bean,loose coupling",
+   "idealAnswer": "DI: Spring container injects dependencies, reducing coupling.",
+   "active": true
+  },
+  {
+   "id": 3,
+   "questionText": "Explain @RestController vs @Controller.",
+   "category": "Spring Boot",
+   "jobRole": "Java Developer",
+   "difficulty": "Easy",
+   "expectedKeywords": "restcontroller,controller,responsebody,rest,json",
+   "idealAnswer": "RestController returns JSON directly.",
+   "active": true
+  },
+  {
+   "id": 4,
+   "questionText": "What are SOLID principles?",
+   "category": "OOP",
+   "jobRole": "Java Developer",
+   "difficulty": "Hard",
+   "expectedKeywords": "solid,single responsibility,open closed,liskov,interface segregation,dependency inversion",
+   "idealAnswer": "Five OO design principles.",
+   "active": true
+  },
+  {
+   "id": 5,
+   "questionText": "Explain SQL JOIN types.",
+   "category": "SQL",
+   "jobRole": "Full Stack Developer",
+   "difficulty": "Medium",
+   "expectedKeywords": "join,inner,left,right,full outer,on",
+   "idealAnswer": "INNER matches; LEFT/RIGHT keep one side; FULL keeps both.",
+   "active": true
+  },
+  {
+   "id": 6,
+   "questionText": "What is a REST API? Status codes?",
+   "category": "REST APIs",
+   "jobRole": "Full Stack Developer",
+   "difficulty": "Easy",
+   "expectedKeywords": "rest,http,get,post,put,delete,200,404,500,stateless",
+   "idealAnswer": "HTTP verbs on resources; 200/201/400/401/404/500.",
+   "active": true
+  },
+  {
+   "id": 7,
+   "questionText": "Explain React useState and useEffect.",
+   "category": "React",
+   "jobRole": "Frontend Developer",
+   "difficulty": "Medium",
+   "expectedKeywords": "react,hooks,usestate,useeffect,state,lifecycle",
+   "idealAnswer": "State hook + side-effect hook.",
+   "active": true
+  },
+  {
+   "id": 8,
+   "questionText": "Explain JS event loop and promises.",
+   "category": "JavaScript",
+   "jobRole": "Frontend Developer",
+   "difficulty": "Hard",
+   "expectedKeywords": "event loop,call stack,queue,promise,async,microtask",
+   "idealAnswer": "Loop drains microtasks then macrotasks.",
+   "active": true
+  },
+  {
+   "id": 9,
+   "questionText": "Python list vs tuple vs dict?",
+   "category": "Python",
+   "jobRole": "Python Developer",
+   "difficulty": "Easy",
+   "expectedKeywords": "list,tuple,dict,mutable,immutable,key value",
+   "idealAnswer": "Mutable seq, immutable seq, key-value map.",
+   "active": true
+  },
+  {
+   "id": 10,
+   "questionText": "What is overfitting in ML?",
+   "category": "ML",
+   "jobRole": "AI/ML Engineer",
+   "difficulty": "Hard",
+   "expectedKeywords": "overfitting,validation,regularization,dropout,training",
+   "idealAnswer": "Memorizes training; fix with validation/regularization.",
+   "active": true
+  },
+  {
+   "id": 11,
+   "questionText": "Explain CIA triad.",
+   "category": "Security",
+   "jobRole": "Cybersecurity Analyst",
+   "difficulty": "Medium",
+   "expectedKeywords": "confidentiality,integrity,availability,encryption",
+   "idealAnswer": "Keep data confidential, unmodified, available.",
+   "active": true
+  },
+  {
+   "id": 12,
+   "questionText": "What is normalization in DBMS?",
+   "category": "Database",
+   "jobRole": "Backend Developer",
+   "difficulty": "Medium",
+   "expectedKeywords": "normalization,1nf,2nf,3nf,redundancy",
+   "idealAnswer": "Remove redundancy via 1NF/2NF/3NF.",
+   "active": true
+  },
+  {
+   "id": 13,
+   "questionText": "Monolith vs microservices?",
+   "category": "System Design",
+   "jobRole": "Full Stack Developer",
+   "difficulty": "Hard",
+   "expectedKeywords": "monolith,microservices,scaling,latency,deployment",
+   "idealAnswer": "Simple deploy vs independent scaling.",
+   "active": true
+  },
+  {
+   "id": 14,
+   "questionText": "Describe a challenging project (STAR).",
+   "category": "Behavioral",
+   "jobRole": "Full Stack Developer",
+   "difficulty": "Medium",
+   "expectedKeywords": "situation,task,action,result,challenge",
+   "idealAnswer": "Use STAR with quantified result.",
+   "active": true
+  },
+  {
+   "id": 15,
+   "questionText": "Why should we hire you?",
+   "category": "HR",
+   "jobRole": "Full Stack Developer",
+   "difficulty": "Easy",
+   "expectedKeywords": "strengths,role,contribution,team",
+   "idealAnswer": "Map strengths to role needs.",
+   "active": true
+  }
+ ],
+ "skills": [
+  {
+   "id": 1,
+   "name": "Java",
+   "category": "Technical",
+   "description": "Java"
+  },
+  {
+   "id": 2,
+   "name": "Spring Boot",
+   "category": "Technical",
+   "description": "Spring Boot"
+  },
+  {
+   "id": 3,
+   "name": "React",
+   "category": "Technical",
+   "description": "React"
+  },
+  {
+   "id": 4,
+   "name": "SQL",
+   "category": "Technical",
+   "description": "SQL"
+  },
+  {
+   "id": 5,
+   "name": "REST APIs",
+   "category": "Technical",
+   "description": "REST APIs"
+  },
+  {
+   "id": 6,
+   "name": "System Design",
+   "category": "Technical",
+   "description": "System Design"
+  },
+  {
+   "id": 7,
+   "name": "Communication",
+   "category": "Technical",
+   "description": "Communication"
+  }
+ ],
+ "userSkills": [
+  {
+   "id": 1,
+   "userId": 1,
+   "skillId": 1,
+   "currentScore": 41.3,
+   "targetScore": 90,
+   "gapScore": 48.7
+  },
+  {
+   "id": 2,
+   "userId": 1,
+   "skillId": 2,
+   "currentScore": 33.3,
+   "targetScore": 90,
+   "gapScore": 56.7
+  },
+  {
+   "id": 3,
+   "userId": 1,
+   "skillId": 3,
+   "currentScore": 36.3,
+   "targetScore": 90,
+   "gapScore": 53.7
+  },
+  {
+   "id": 4,
+   "userId": 1,
+   "skillId": 4,
+   "currentScore": 38.3,
+   "targetScore": 90,
+   "gapScore": 51.7
+  },
+  {
+   "id": 5,
+   "userId": 1,
+   "skillId": 5,
+   "currentScore": 45.3,
+   "targetScore": 90,
+   "gapScore": 44.7
+  },
+  {
+   "id": 6,
+   "userId": 1,
+   "skillId": 6,
+   "currentScore": 23.3,
+   "targetScore": 90,
+   "gapScore": 66.7
+  },
+  {
+   "id": 7,
+   "userId": 1,
+   "skillId": 7,
+   "currentScore": 43.3,
+   "targetScore": 90,
+   "gapScore": 46.7
+  }
+ ],
+ "roadmaps": [
+  {
+   "id": 1,
+   "userId": 1,
+   "title": "Step 1: Master Full Stack fundamentals",
+   "description": "Master Full Stack fundamentals",
+   "priority": 1,
+   "progress": 100,
+   "status": "DONE"
+  },
+  {
+   "id": 2,
+   "userId": 1,
+   "title": "Step 2: Build 2 portfolio projects",
+   "description": "Build 2 portfolio projects",
+   "priority": 2,
+   "progress": 100,
+   "status": "DONE"
+  },
+  {
+   "id": 3,
+   "userId": 1,
+   "title": "Step 3: Practice system design and APIs",
+   "description": "Practice system design and APIs",
+   "priority": 3,
+   "progress": 40,
+   "status": "PENDING"
+  },
+  {
+   "id": 4,
+   "userId": 1,
+   "title": "Step 4: STAR behavioral prep",
+   "description": "STAR behavioral prep",
+   "priority": 4,
+   "progress": 0,
+   "status": "PENDING"
+  },
+  {
+   "id": 5,
+   "userId": 1,
+   "title": "Step 5: Full advanced mock",
+   "description": "Full advanced mock",
+   "priority": 5,
+   "progress": 0,
+   "status": "PENDING"
+  }
+ ],
+ "resumes": [
+  {
+   "id": 1,
+   "userId": 1,
+   "fileName": "demo-resume.txt",
+   "extractedText": "Java Spring Boot React SQL REST. Built React + Spring Boot app with JWT and MySQL.",
+   "resumeScore": 78,
+   "uploadedAt": "2026-10-05T04:57:44.619Z"
+  }
+ ],
+ "achievements": [
+  {
+   "id": 1,
+   "userId": 1,
+   "achievementName": "First Interview",
+   "description": "Completed first mock",
+   "earnedAt": "2026-10-05T04:57:44.619Z"
+  },
+  {
+   "id": 2,
+   "userId": 1,
+   "achievementName": "80% Club",
+   "description": "Scored 80%+",
+   "earnedAt": "2026-10-05T04:57:44.619Z"
+  }
+ ],
+ "seq": {
+  "user": 5,
+  "interview": 9,
+  "answer": 9,
+  "question": 1,
+  "roadmap": 6,
+  "resume": 2,
+  "ach": 3,
+  "skill": 1
+ }
+}

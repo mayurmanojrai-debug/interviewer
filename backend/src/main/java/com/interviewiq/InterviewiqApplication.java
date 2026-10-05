@@ -1,0 +1,1 @@
+package com.interviewiq;\nimport org.springframework.boot.SpringApplication;\nimport org.springframework.boot.autoconfigure.SpringBootApplication;\n@SpringBootApplication\npublic class InterviewiqApplication {\n  public static void main(String[] args){ SpringApplication.run(InterviewiqApplication.class, args); }\n}\n

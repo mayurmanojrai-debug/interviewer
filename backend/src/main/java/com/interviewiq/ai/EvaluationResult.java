@@ -1,0 +1,1 @@
+package com.interviewiq.ai; import java.util.*; public class EvaluationResult { public double score,technical,relevance,completeness,clarity; public List<String> strengths=new ArrayList<>(); public List<String> weaknesses=new ArrayList<>(); public String feedback=""; }

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>InterviewIQ — AI Mock Interview &amp; Career Readiness Platform</title>
+  <meta name="description" content="AI-powered adaptive mock interviews with instant answer scoring, skill-gap analysis, and a personalised career roadmap." />
+  <meta name="theme-color" content="#4f46e5" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#080b16" media="(prefers-color-scheme: dark)" />
+  <meta property="og:title" content="InterviewIQ — Practice Smarter. Interview Better. Get Hired." />
+  <meta property="og:description" content="Adaptive AI mock interviews, instant scoring, skill-gap analysis and a personalised improvement roadmap." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script>
+    /* Set the theme before first paint so there is no flash of the wrong colour scheme. */
+    (function () {
+      try {
+        /* Light is the product default; dark is opt-in via the in-app toggle. */
+        document.documentElement.setAttribute('data-theme', localStorage.getItem('iq_theme_v2') || 'light');
+      } catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

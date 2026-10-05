@@ -1,0 +1,1 @@
+package com.interviewiq.repository; import com.interviewiq.entity.Roadmap; import org.springframework.data.jpa.repository.JpaRepository; import java.util.*; public interface RoadmapRepository extends JpaRepository<Roadmap,Long>{ List<Roadmap> findByUserIdOrderByPriorityAsc(Long u); }

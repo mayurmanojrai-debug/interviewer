@@ -1,0 +1,1 @@
+package com.interviewiq.repository; import com.interviewiq.entity.Answer; import org.springframework.data.jpa.repository.JpaRepository; import java.util.*; public interface AnswerRepository extends JpaRepository<Answer,Long>{ List<Answer> findByInterviewId(Long i); }

@@ -1,0 +1,1 @@
+package com.interviewiq.repository; import com.interviewiq.entity.UserSkill; import org.springframework.data.jpa.repository.JpaRepository; import java.util.*; public interface UserSkillRepository extends JpaRepository<UserSkill,Long>{ List<UserSkill> findByUserId(Long u); Optional<UserSkill> findByUserIdAndSkillId(Long u,Long s); }

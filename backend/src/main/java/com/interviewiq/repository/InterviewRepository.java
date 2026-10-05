@@ -1,0 +1,1 @@
+package com.interviewiq.repository; import com.interviewiq.entity.Interview; import org.springframework.data.jpa.repository.JpaRepository; import java.util.*; public interface InterviewRepository extends JpaRepository<Interview,Long>{ List<Interview> findByUserIdOrderByCreatedAtDesc(Long u); long countByUserId(Long u); }

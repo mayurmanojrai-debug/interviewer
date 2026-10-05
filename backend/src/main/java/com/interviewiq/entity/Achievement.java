@@ -1,0 +1,1 @@
+package com.interviewiq.entity; import jakarta.persistence.*; import java.time.*; @Entity @Table(name="achievements") public class Achievement { @Id @GeneratedValue(strategy=GenerationType.IDENTITY) public Long id; public Long userId; public String achievementName; public String description=""; public LocalDateTime earnedAt=LocalDateTime.now(); }

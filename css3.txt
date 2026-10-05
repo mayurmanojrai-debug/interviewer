@@ -1,0 +1,2 @@
+@media(max-width:1000px){.hero{grid-template-columns:1fr}.feat-grid{grid-template-columns:1fr 1fr}.live-grid{grid-template-columns:1fr}.stat-grid{grid-template-columns:1fr 1fr}.auth-wrap{grid-template-columns:1fr}}
+@media(max-width:760px){.shell{grid-template-columns:1fr}.sidebar{position:fixed;z-index:20;width:250px;transform:translateX(-110%);transition:.2s}.sidebar.open{transform:none}.only-mobile{display:inline-flex}.grid2{grid-template-columns:1fr}.hero h1{font-size:36px}.content{padding:14px}}
