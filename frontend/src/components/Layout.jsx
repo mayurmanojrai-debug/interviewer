@@ -1,11 +1,12 @@
+import { useEffect, useState } from 'react';
 import { NavLink, useNavigate, useLocation } from 'react-router-dom';
 import {
   LayoutDashboard, PlayCircle, FlaskConical, Bot, BarChart3, Brain,
-  Map, History, FileText, Settings, LogOut, Menu, X, Mic, Sparkles, Sun, Moon,
+  Map, History, FileText, Settings, LogOut, Menu, X, Mic, Sparkles, Sun, Moon, CloudOff,
 } from 'lucide-react';
-import { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext.jsx';
 import { useTheme } from '../context/ThemeContext.jsx';
+import { onDemoChange } from '../services/demoData.js';
 import AiAssistant from './AiAssistant.jsx';
 
 const NAV_GROUPS = [
@@ -55,6 +56,10 @@ export default function Layout({ children }) {
   const nav = useNavigate();
   const loc = useLocation();
   const [open, setOpen] = useState(false);
+  const [offline, setOffline] = useState(false);
+
+  // Flip the demo-mode banner when the API turns out to be unreachable.
+  useEffect(() => onDemoChange(setOffline), []);
 
   // Close the mobile drawer whenever the route changes.
   useEffect(() => { setOpen(false); }, [loc.pathname]);
@@ -160,7 +165,18 @@ export default function Layout({ children }) {
             </button>
           </div>
         </header>
-        <main className="content" id="main">{children}</main>
+        <main className="content" id="main">
+          {offline && (
+            <div className="demo-banner" role="status">
+              <CloudOff size={16} />
+              <span>
+                <b>Demo mode.</b> No backend is connected, so this session runs entirely in
+                your browser with sample data. Sign in with any details.
+              </span>
+            </div>
+          )}
+          {children}
+        </main>
       </div>
 
       {/* Floating AI assistant, available on every app screen. */}

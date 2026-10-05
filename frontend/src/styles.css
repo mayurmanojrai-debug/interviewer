@@ -1294,6 +1294,20 @@ select {
   100% { transform: scale(1.12); opacity: 0; }
 }
 
+/* Demo-mode banner (shown when the API is unreachable) */
+.demo-banner {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 12px 16px; margin-bottom: 18px;
+  border-radius: var(--r-lg);
+  background: var(--warn-soft); color: var(--warn);
+  border: 1px solid color-mix(in srgb, var(--warn) 28%, transparent);
+  font-size: .86rem; line-height: 1.55;
+}
+.demo-banner svg { flex: 0 0 auto; margin-top: 2px; }
+.demo-banner b { font-weight: 700; }
+
+@media print { .demo-banner { display: none !important; } }
+
 /* ------------------------------------------------- 24. AI ASSISTANT */
 .ai-fab {
   position: fixed; right: 26px; bottom: 26px; z-index: 90;
